@@ -3,3 +3,50 @@
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+#header{
+    background: linear-gradient(rgba(52, 48, 48, 0.879), rgba(11, 11, 11, 0.725)), url(images/donation14.webp);
+    height: 100vh;
+    background-color: rgba(52, 48, 48, 0.323);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+.container{
+    padding: 10px 10%;
+}
+.header-text{
+    margin-top: 200px;
+}
+.heading{
+    font-size: 60px;
+}
+.header-description{
+    margin: 20px 0 20px;
+}
+.btn{
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    background-color:#FF5959;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+}
+@media screen and (max-width:567px) {
+    .heading{
+        font-size: 25px;
+    }
+}
+/* --------about---------- */
+
+
+
+
+
+
+
+
+
+
+
