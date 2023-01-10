@@ -40,13 +40,46 @@
 }
 /* --------about---------- */
 
-
-
-
-
-
-
-
+#donate-today{
+    margin-top: 100px;
+    text-align: center;
+}
+.common-header{
+    font-size: 50px;
+}
+.donate-container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 75px;
+}
+.donate-box{
+    background-color: #eeeded;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #696969;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+.content-color{
+    color: #696969;
+}
+.amount{
+    margin: 70px 0 30px;
+    border-bottom: 1px solid #696969;
+}
+@media screen and (max-width:567px) {
+    .common-header{
+        font-size: 30px;
+    }
+    .donate-container{
+        grid-template-columns:repeat(2, 1fr);
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+}
 
 
 
