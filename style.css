@@ -81,5 +81,66 @@
     }
 }
 
+/* ----------Our Donate Plan----------- */
+
+.our-donate-plan{
+    text-align: center;
+    margin: 100px 0;
+}
+.plan-container{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.food{
+    background-color: #EDF5F6;
+    padding: 40px 20px;
+    text-align: left;
+    border-radius: 10px;
+}
+.food h1{
+    margin: 30px 0 20px ;
+}
+.food p{
+    color: #696969;
+}
+.selter{
+    background-color: #FFEEEE;
+    padding: 40px 20px;
+    text-align: left;
+    border-radius: 10px;
+}
+.selter h1{
+    margin: 30px 0 20px ;
+}
+.selter p{
+    color: #696969;
+}
+.education{
+    background-color: #FFF4D6;
+    padding: 40px 20px;
+    text-align: left;
+    border-radius: 10px;
+}
+.education h1{
+    margin: 30px 0 20px ;
+}
+.education p{
+    color: #696969;
+}
+@media screen and (max-width:567px){
+    .plan-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+
+
+
+
+
+
 
 
