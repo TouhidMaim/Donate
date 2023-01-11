@@ -33,11 +33,7 @@
     border-radius: 5px;
     padding: 15px 20px;
 }
-@media screen and (max-width:567px) {
-    .heading{
-        font-size: 25px;
-    }
-}
+
 /* --------about---------- */
 
 #donate-today{
@@ -69,16 +65,6 @@
 .amount{
     margin: 70px 0 30px;
     border-bottom: 1px solid #696969;
-}
-@media screen and (max-width:567px) {
-    .common-header{
-        font-size: 30px;
-    }
-    .donate-container{
-        grid-template-columns:repeat(2, 1fr);
-        column-gap: 10px;
-        row-gap: 10px;
-    }
 }
 
 /* ----------Our Donate Plan----------- */
@@ -129,11 +115,6 @@
 .education p{
     color: #696969;
 }
-@media screen and (max-width:567px){
-    .plan-container{
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
 
 /* --------depand-donate--------- */
 
@@ -152,11 +133,6 @@
 .col-2 img{
     width: 100%;
     border-radius: 10px ;
-}
-@media screen and(max-width:567px) {
-    .donation-container{
-        grid-template-columns: repeat(1, 1fr);
-    }
 }
 
 /* ---------get my update-------------- */
@@ -195,3 +171,27 @@
 }
 .footer-description p{
     margin-top: 20px;
+}
+
+
+@media screen and (max-width:576px) {
+    .heading{
+        font-size: 25px;
+    }
+    .common-header{
+        font-size: 30px;
+    }
+    .donate-container{
+        grid-template-columns:repeat(2, 1fr);
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+    .plan-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .donation-container{
+        grid-template-columns: none;
+        gap: 40px;
+        margin-bottom: 0;
+    }
+}
